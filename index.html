@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 4</title>
+</head>
+<style>
+  .center_items {
+    text-align: center;
+  }
+</style>
+<body>
+  
+  <div>
+    <h1>Catálogo de Produtos</h1>
+  </div>
+
+  <div>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <th></th>
+        <th>Foto</th>
+        <th>Código</th>
+        <th>Descrição</th>
+        <th>Qtde em estoque</th>
+        <th>Valor unitário</th>
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td><input type="checkbox" id="id_product_1" name="id_product_1" value="1"></input></td>
+          <td><img src="files/mouse_1.png"></td>
+          <td>1</td>
+          <td>Mouse Laser com fio Dell</td>
+          <td class="center_items">5</td>
+          <td class="center_items">R$ 179,00</td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" id="id_product_2" name="id_product_2" value="2"></input></td>
+          <td><img src="files/mouse_2.png"></td>
+          <td>2</td>
+          <td>Mouse Bluetooth Dell</td>
+          <td class="center_items">6</td>
+          <td class="center_items">R$ 338,00</td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" id="id_product_3" name="id_product_3" value="3"></input></td>
+          <td><img src="files/mouse_3.png"></td>
+          <td>3</td>
+          <td>Mouse óptico usb preto 100</td>
+          <td class="center_items">3</td>
+          <td class="center_items">R$ 48,30</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <div>
+      <h2>Descrição</h2>
+      <h3>Características do Produto</h3>
+
+      <label>Especificações</label>
+
+      <ul>
+        <li>Sensor óptico preciso com 1.600 DPI permite que você trabalhe na maioria dassuperfícies</li>
+        <li>Configuração USB rápida e fácil com cabo de 1,5m</li>
+        <li>Design ambidestro, produzido para caber de forma natural e perfeita na palma da sua mão</li>
+        <li>Três botões integrados</li>
+        <li>Ampla compatibilidade: Windows e Mac</li>
+      </ul>
+
+    <h3>Avaliação do produto</h3>
+
+    <dl>
+      <dt>José Parecido</dt>
+      <dd>Muito bom</dd>
+    </dl>
+
+    <dl>
+      <dt>Joaquim Jorge</dt>
+      <dd>Bom</dd>
+    </dl>
+  </div>
+</body>
+</html>
